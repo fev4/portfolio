@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "public": true,
+  "name": "fillipvt-portfolio",
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@now/next"
+    }
+  ],
+  "build": {
+    "env": {
+      "NPM_CONFIG_FONTAWESOME_PRO_REPO_KEY": "@npm_config_fontawesome_pro_repo_key"
+    }
+  }
+}
