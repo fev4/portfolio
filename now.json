@@ -4,13 +4,31 @@
   "name": "fillipvt-portfolio",
   "builds": [
     {
-      "src": "next.config.js",
+      "src": "www/index/package.json",
       "use": "@now/next"
+    },
+    {
+      "src": "www/blog/package.json",
+      "use": "@now/static-build",
+      "config": {
+        "distDir": "public"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/www/index/$1"
+    },
+    {
+      "src": "/blog/(.*)",
+      "dest": "/www/blog/public/$1"
     }
   ],
   "build": {
     "env": {
       "NPM_CONFIG_FONTAWESOME_PRO_REPO_KEY": "@npm_config_fontawesome_pro_repo_key"
     }
-  }
+  },
+  "regions": ["all"]
 }
