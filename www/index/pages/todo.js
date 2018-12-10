@@ -16,7 +16,7 @@ const Todo = (props) => {
     <Heading>TODO List for the project:</Heading>
     <ul>
       <li>Define the scope: What will be possible? <Icon iconprefix="fas" iconname="balance-scale"></Icon></li>
-      <li>Do mockups: Design the look <Icon iconprefix="fal" iconname="file-signature"></Icon></li>
+      <li>Do mockups: Design the look <Icon iconprefix="fas" iconname="binoculars"></Icon></li>
       <li>Create: Code the components</li>
     </ul>
       <div>

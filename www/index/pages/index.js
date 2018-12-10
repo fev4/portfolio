@@ -16,7 +16,7 @@ const Home = (props) => {
   return (
     <>
       <Heading>Welcome</Heading>
-      <Pg>This is the start of a great journey</Pg>
+      <Pg>This is the start of a portfolio</Pg>
       <div>
         <Link href="/todo" prefetch>
           <a>Show TODO</a>
