@@ -1,4 +1,4 @@
-# Step
+# Steps
 
 1. Clone the repo
 2. `cd` into the repo folder
