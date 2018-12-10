@@ -17,18 +17,13 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/www/index/$1"
+      "src": "/blog/(.*)",
+      "dest": "/www/blog/$1"
     },
     {
-      "src": "/blog/(.*)",
-      "dest": "/www/blog/public/$1"
+      "src": "/(.*)",
+      "dest": "/www/index/$1"
     }
   ],
-  "build": {
-    "env": {
-      "NPM_CONFIG_FONTAWESOME_PRO_REPO_KEY": "@npm_config_fontawesome_pro_repo_key"
-    }
-  },
   "regions": ["all"]
 }
