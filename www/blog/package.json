@@ -20,7 +20,7 @@
   "license": "MIT",
   "scripts": {
     "now-build": "npm run build",
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "start": "npm run develop",
     "format": "prettier --write \"src/**/*.js\"",

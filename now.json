@@ -1,7 +1,7 @@
 {
   "version": 2,
   "public": true,
-  "name": "fillipvt-portfolio",
+  "name": "portfolio",
   "builds": [
     {
       "src": "www/index/package.json",
@@ -15,6 +15,11 @@
       }
     }
   ],
+  "build": {
+    "env": {
+      "NPM_CONFIG_FONTAWESOME_PRO_REPO_KEY": "@npm_config_fontawesome_pro_repo_key"
+    }
+  },
   "routes": [
     {
       "src": "/blog/(.*)",
