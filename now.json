@@ -13,12 +13,20 @@
       "config": {
         "distDir": "public"
       }
+    },
+    {
+      "src": "api/apollo/index.js",
+      "use": "@now/node-server"
     }
   ],
   "routes": [
     {
       "src": "/blog(.*)",
       "dest": "/www/blog$1"
+    },
+    {
+      "src": "/graphql(.*)",
+      "dest": "/api/apollo$1"
     },
     {
       "src": "/(.*)",
