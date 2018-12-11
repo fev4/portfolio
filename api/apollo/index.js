@@ -18,7 +18,7 @@ const resolvers = {
 const server = new ApolloServer({ typeDefs, resolvers, introspection: true, playground: true });
 
 const app = express();
-server.applyMiddleware({ app, path: '/' });
+server.applyMiddleware({ app, path: '/graphql' });
 app.get("/", (req, res) => {
   res.redirect("/");
 });
