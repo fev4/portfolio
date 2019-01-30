@@ -9,7 +9,7 @@ class AboutPage extends Component {
         <Header />
         <div>You are in the About Page</div>
         <section>
-          <Link href="/blog" prefetch>
+          <Link href="/blog">
             <a>Go To Blog Home</a>
           </Link>
         </section>

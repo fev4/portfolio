@@ -9,10 +9,7 @@
     },
     {
       "src": "packages/web/next-blog/package.json",
-      "use": "@now/static-build",
-      "config": {
-        "distDir": "dist"
-      }
+      "use": "@now/static-build"
     },
     {
       "src": "packages/api/apollo/index.js",
@@ -21,7 +18,7 @@
   ],
   "routes": [
     {
-      "src": "/blog(.*)",
+      "src": "^/blog(.*)",
       "dest": "packages/web/next-blog$1"
     },
     {
@@ -29,7 +26,7 @@
       "dest": "packages/api/apollo$1"
     },
     {
-      "src": "/(.*)",
+      "src": "^/(.*)$",
       "dest": "packages/web/next-main/$1"
     }
   ],

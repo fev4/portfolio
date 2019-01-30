@@ -6,7 +6,7 @@ export default () => (
     <Header />
     <div>You are in the Blog Home Page</div>
     <section>
-      <Link href="/blog/about" prefetch>
+      <Link href="/blog/about">
         <a>Go To About Me</a>
       </Link>
     </section>

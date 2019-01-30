@@ -18,12 +18,12 @@ const Home = (props) => {
       <Heading>Welcome</Heading>
       <Pg>This is the start of a portfolio</Pg>
       <div>
-        <Link href="/todo" prefetch>
+        <Link href="/todo">
           <a>Go To ToDo List</a>
         </Link>
       </div>
       <div>
-        <Link href="/blog" prefetch>
+        <Link href="/blog">
           <a>Go To Blog Home Page</a>
         </Link>
       </div>
