@@ -5,7 +5,7 @@
   "private": true,
   "repository": "https://github.com/fillipvt/portfolio.git",
   "author": "fillipvt",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "workspaces": [
     "packages/**/*"
   ],

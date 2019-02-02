@@ -6,7 +6,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "now-build": "next build && next export -o dist"
+    "now-build": "next build"
   },
   "author": "fillipvt",
   "license": "MIT",

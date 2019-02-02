@@ -6,14 +6,12 @@ export default () => (
     <Header />
     <div>You are in the Blog Home Page</div>
     <section>
-      <Link href="/blog/about">
+      <Link href="/blog/about/">
         <a>Go To About Me</a>
       </Link>
     </section>
     <section>
-      <Link href="/">
-        <a>Go To Portfolio Home Page</a>
-      </Link>
+      <a href="https://fillipvt.com/">Go To Portfolio Home Page</a>
     </section>
   </main>
 )

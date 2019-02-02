@@ -9,7 +9,7 @@
     },
     {
       "src": "packages/web/next-blog/package.json",
-      "use": "@now/static-build"
+      "use": "@now/next"
     },
     {
       "src": "packages/api/apollo/index.js",
@@ -23,11 +23,11 @@
     },
     {
       "src": "/graphql(.*)",
-      "dest": "packages/api/apollo$1"
+      "dest": "packages/api/apollo/index.js"
     },
     {
-      "src": "^/(.*)$",
-      "dest": "packages/web/next-main/$1"
+      "src": "^(.*)$",
+      "dest": "packages/web/next-main$1"
     }
   ],
   "regions": ["gru"]
