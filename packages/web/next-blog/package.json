@@ -25,5 +25,8 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-spring": "^7.2.10"
+  },
+  "resolutions": {
+    "terser": "3.14.1"
   }
 }

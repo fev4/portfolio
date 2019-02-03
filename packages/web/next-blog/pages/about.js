@@ -7,11 +7,14 @@ class AboutPage extends Component {
     return (
       <main>
         <Header />
-        <div>You are in the About Page</div>
+        <div>About Page</div>
         <section>
-          <Link href="/blog/">
-            <a>Go To Blog Home</a>
+          <Link href="/" as="/blog/">
+            <a>Go To Blog Home (with Link)</a>  
           </Link>
+        </section>
+        <section>
+          <a href="https://fillipvt.com/blog/">Go To Blog Home</a>
         </section>
         <section>
           <a href="https://fillipvt.com/">Go To Portfolio Home Page</a>
