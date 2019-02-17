@@ -4,12 +4,12 @@
   "name": "portfolio",
   "builds": [
     {
-      "src": "packages/web/next-main/package.json",
       "use": "@now/next"
+      "src": "packages/next-main/package.json",
     },
     {
-      "src": "packages/web/next-blog/package.json",
       "use": "@now/next"
+      "src": "packages/next-blog/package.json",
     },
     {
       "src": "packages/api/apollo/index.js",
@@ -19,7 +19,7 @@
   "routes": [
     {
       "src": "^/blog(.*)",
-      "dest": "packages/web/next-blog$1"
+      "dest": "packages/next-blog$1"
     },
     {
       "src": "/graphql(.*)",
@@ -27,7 +27,7 @@
     },
     {
       "src": "^(.*)$",
-      "dest": "packages/web/next-main$1"
+      "dest": "packages/next-main$1"
     }
   ],
   "regions": ["gru"]
