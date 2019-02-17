@@ -7,7 +7,7 @@
   "author": "fillipvt",
   "license": "MIT",
   "workspaces": [
-    "packages/**/*"
+    "packages/*"
   ],
   "scripts": {
     "bootstrap": "lerna bootstrap",
