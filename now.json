@@ -4,12 +4,12 @@
   "name": "portfolio",
   "builds": [
     {
-      "use": "@now/next"
       "src": "packages/next-main/package.json",
+      "use": "@now/next@canary"
     },
     {
-      "use": "@now/next"
       "src": "packages/next-blog/package.json",
+      "use": "@now/next@canary"
     },
     {
       "src": "packages/api/apollo/index.js",
