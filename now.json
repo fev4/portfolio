@@ -30,6 +30,6 @@
       "dest": "packages/next-main$1"
     }
   ],
-  "regions": ["gru"]
+  "regions": ["all"],
   "alias": "fillipvt.com"
 }
