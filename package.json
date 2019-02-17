@@ -10,8 +10,6 @@
     "packages/*"
   ],
   "scripts": {
-    "bootstrap": "lerna bootstrap",
-    "yarn:check": "yarn-check"
     "lerna:update": "lernaupdate",
     "deploy:production": "now && now alias"
   },
