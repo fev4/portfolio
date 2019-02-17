@@ -12,6 +12,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "yarn:check": "yarn-check"
+    "deploy:production": "now && now alias"
   },
   "devDependencies": {
     "lerna": "^3.6.0"
