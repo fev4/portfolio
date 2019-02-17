@@ -10,6 +10,13 @@
     "packages/*"
   ],
   "scripts": {
+    "dev:blog": "yarn --cwd packages/next-blog dev",
+    "dev:main": "yarn --cwd packages/next-main dev",
+    "build:blog": "yarn --cwd packages/next-blog build",
+    "build:main": "yarn --cwd packages/next-main build",
+    "start:blog": "yarn --cwd packages/next-blog start",
+    "start:main": "yarn --cwd packages/next-main start",
+    "build:components": "yarn --cwd packages/shared-components build",
     "lerna:update": "lernaupdate",
     "deploy:production": "now && now alias"
   },
