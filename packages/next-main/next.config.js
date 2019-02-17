@@ -1,3 +1,8 @@
+const withTM = require('next-transpile-modules')
+
+module.exports = withTM({
+  transpileModules: ['@fillipvt/components'],
+  target: 'serverless',
   webpack: function (cfg) {
     const originalEntry = cfg.entry
     cfg.entry = async () => {
@@ -15,3 +20,4 @@
 
     return cfg
   }
+})
