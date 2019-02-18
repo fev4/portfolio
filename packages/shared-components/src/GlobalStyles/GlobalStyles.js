@@ -1,7 +1,7 @@
 import normalize from './normalize'
 import {css} from '@emotion/core'
 
-export const GlobalStyles = css`
+const GlobalStyles = css`
   ${normalize};
   html {
   font-size: 18px;
@@ -16,3 +16,4 @@ export const GlobalStyles = css`
     box-sizing: inherit;
   }
 `
+export default GlobalStyles

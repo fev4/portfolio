@@ -21,7 +21,7 @@ const Home = (props) => {
       <Pg>Portfolio Home Page</Pg>
       <Bar/>
       <div>
-        <Link href="/todo/">
+        <Link href="/todo">
           <a>Go To ToDo List</a>
         </Link>
       </div>

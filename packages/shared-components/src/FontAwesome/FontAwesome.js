@@ -7,17 +7,21 @@ import {
   faPiggyBank,
   faRoute,
   faBinoculars,
+  faAd
 } from '@fortawesome/free-solid-svg-icons'
 import { } from '@fortawesome/free-regular-svg-icons'
 import { faGoogle } from '@fortawesome/free-brands-svg-icons'
 
 /* Font Awesome Icons */
-library.add(
+const FontAwesome = library.add(
   faBars,
   faCopyright,
   faBalanceScale,
   faPiggyBank,
   faRoute,
   faBinoculars,
+  faAd,
   faGoogle
 )
+
+export default FontAwesome

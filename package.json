@@ -17,6 +17,7 @@
     "start:blog": "yarn --cwd packages/next-blog start",
     "start:main": "yarn --cwd packages/next-main start",
     "build:components": "yarn --cwd packages/shared-components build",
+    "dev:components": "yarn --cwd packages/shared-components storybook",
     "lerna:update": "lernaupdate",
     "deploy:production": "now && now alias"
   },

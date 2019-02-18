@@ -9,15 +9,15 @@ class AboutPage extends Component {
         <Header />
         <div>About Page</div>
         <section>
-          <Link href="/" as="/blog/" prefetch>
+          <Link href="/" as="/blog" prefetch>
             <a>Go To Blog Home (with Link)</a>  
           </Link>
         </section>
         <section>
-          <a href="https://fillipvt.com/blog/">Go To Blog Home</a>
+          <a href="https://fillipvt.com/blog">Go To Blog Home</a>
         </section>
         <section>
-          <a href="https://fillipvt.com/">Go To Portfolio Home Page</a>
+          <a href="https://fillipvt.com">Go To Portfolio Home Page</a>
         </section>
       </main>
     )
