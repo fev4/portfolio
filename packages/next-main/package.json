@@ -19,7 +19,7 @@
     "@fortawesome/free-regular-svg-icons": "5.7.2",
     "@fortawesome/free-solid-svg-icons": "5.7.2",
     "@fortawesome/react-fontawesome": "^0.1.4",
-    "babel-plugin-emotion": "^10.0.6",
+    "babel-plugin-emotion": "10.0.7",
     "isomorphic-unfetch": "^3.0.0",
     "next": "8.0.2-canary.3",
     "next-transpile-modules": "^2.0.0",
