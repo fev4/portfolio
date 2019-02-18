@@ -75,6 +75,6 @@
     "@fortawesome/react-fontawesome": "^0.1.4",
     "react": "16.8.2",
     "react-dom": "16.8.2",
-    "react-spring": "^8.0.7"
+    "react-spring": "8.0.7"
   }
 }
