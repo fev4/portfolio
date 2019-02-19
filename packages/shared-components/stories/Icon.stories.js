@@ -1,8 +1,11 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import Header from '../src/Header'
+import Icon from '../src/Icon'
+import FontAwesome from '../src/FontAwesome'
 
-storiesOf('Header', module)
-  .add('simple', () => (
-    <Header/>
+FontAwesome;
+
+storiesOf('Icon', module)
+  .add('start', () => (
+    <Icon iconprefix="fas" iconname="balance-scale"></Icon>
   ))
