@@ -1,4 +1,4 @@
-import {configure, addDecorator} from '@storybook/react'
+import {configure, addDecorator, addParameters} from '@storybook/react'
 import {withNotes} from '@storybook/addon-notes'
 import {withKnobs} from '@storybook/addon-knobs'
 import {withOptions} from '@storybook/addon-options'
@@ -7,13 +7,15 @@ import {withInfo} from '@storybook/addon-info'
 import {withTests} from '@storybook/addon-jest'
 import {configureViewport, INITIAL_VIEWPORTS} from '@storybook/addon-viewport'
 import {setConsoleOptions, withConsole} from '@storybook/addon-console'
+import {themes} from '@storybook/components'
 // import results from '../jest-lock.json'
 
 addDecorator(withInfo)
 addDecorator(withNotes)
 addDecorator(withKnobs)
-addDecorator(
+addParameters(
   withOptions({
+    theme: themes.dark,
     /**
      * name to display in the top left corner
      * @type {String}
