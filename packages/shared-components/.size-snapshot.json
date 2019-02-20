@@ -1,7 +1,7 @@
 {
   "build/umd/fillipvt-components.production.min.js": {
-    "bundled": 856,
-    "minified": 544,
-    "gzipped": 327
+    "bundled": 248553,
+    "minified": 91463,
+    "gzipped": 32772
   }
 }

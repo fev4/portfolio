@@ -1927,9 +1927,9 @@
     universal-user-agent "^2.0.1"
 
 "@octokit/rest@^16.15.0":
-  version "16.15.1"
-  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.15.1.tgz#fe1e00d5eda9ac625397e7f396ad910927e83615"
-  integrity sha512-DBkTL/yZZOjRuVqKH5Tbymf7ZwqNi1ju0SjKoaxXVhdu7Z5OyZQkZRYr0jXKUfg22ALHMudEwdv2MtqX99KIxA==
+  version "16.16.0"
+  resolved "https://registry.yarnpkg.com/@octokit/rest/-/rest-16.16.0.tgz#b686407d34c756c3463f8a7b1e42aa035a504306"
+  integrity sha512-Q6L5OwQJrdJ188gLVmUHLKNXBoeCU0DynKPYW8iZQQoGNGws2hkP/CePVNlzzDgmjuv7o8dCrJgecvDcIHccTA==
   dependencies:
     "@octokit/request" "2.3.0"
     before-after-hook "^1.2.0"
@@ -10680,15 +10680,15 @@ rollup-plugin-size-snapshot@^0.8.0:
     terser "^3.14.1"
     webpack "^4.28.4"
 
-rollup-plugin-uglify@^6.0.2:
-  version "6.0.2"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-uglify/-/rollup-plugin-uglify-6.0.2.tgz#681042cfdf7ea4e514971946344e1a95bc2772fe"
-  integrity sha512-qwz2Tryspn5QGtPUowq5oumKSxANKdrnfz7C0jm4lKxvRDsNe/hSGsB9FntUul7UeC4TsZEWKErVgE1qWSO0gw==
+rollup-plugin-terser@^4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-terser/-/rollup-plugin-terser-4.0.4.tgz#6f661ef284fa7c27963d242601691dc3d23f994e"
+  integrity sha512-wPANT5XKVJJ8RDUN0+wIr7UPd0lIXBo4UdJ59VmlPCtlFsE20AM+14pe+tk7YunCsWEiuzkDBY3QIkSCjtrPXg==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     jest-worker "^24.0.0"
     serialize-javascript "^1.6.1"
-    uglify-js "^3.4.9"
+    terser "^3.14.1"
 
 rollup-pluginutils@^2.0.1, rollup-pluginutils@^2.3.0, rollup-pluginutils@^2.3.1, rollup-pluginutils@^2.3.3:
   version "2.4.1"
@@ -10698,10 +10698,10 @@ rollup-pluginutils@^2.0.1, rollup-pluginutils@^2.3.0, rollup-pluginutils@^2.3.1,
     estree-walker "^0.6.0"
     micromatch "^3.1.10"
 
-rollup@1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-1.2.1.tgz#996a8c63920ab056b39507d93195222e59d2807f"
-  integrity sha512-rFf7m2MHwjSYjSCFdA7ckGluMcQRcC3dKn6uAWYrk/6wnUrdQhJJruumkk5IV/3KMdmuc9qORmTu1VPBa2Ii8w==
+rollup@1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-1.2.2.tgz#960416d098d3dba44bbe64c8db94510d6e568104"
+  integrity sha512-fsn5KJcfSuejjrv8GV7kZNciElqxyzZdUq8rA3e528JsR3ccxrWwoptyUY8GGLlgMFAQMB3dZW8nWF2I1/xrZA==
   dependencies:
     "@types/estree" "0.0.39"
     "@types/node" "*"
@@ -11812,7 +11812,7 @@ ua-parser-js@^0.7.18:
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.19.tgz#94151be4c0a7fb1d001af7022fdaca4642659e4b"
   integrity sha512-T3PVJ6uz8i0HzPxOF9SWzWAlfN/DavlpQqepn22xgve/5QecC+XMCAtmUNnY7C9StehaV6exjUCI801lOI7QlQ==
 
-uglify-js@3.4.x, uglify-js@^3.1.4, uglify-js@^3.4.9:
+uglify-js@3.4.x, uglify-js@^3.1.4:
   version "3.4.9"
   resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.4.9.tgz#af02f180c1207d76432e473ed24a28f4a782bae3"
   integrity sha512-8CJsbKOtEbnJsTyv6LE6m6ZKniqMiFWmm9sRbopbkGs3gMPPfd3Fh8iIA4Ykv5MgaTbqHr4BaoGLJLZNhsrW1Q==
