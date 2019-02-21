@@ -2,7 +2,6 @@ import {configure, addDecorator, addParameters} from '@storybook/react'
 import {withNotes} from '@storybook/addon-notes'
 import {withKnobs} from '@storybook/addon-knobs'
 import {withOptions} from '@storybook/addon-options'
-import centered from '@storybook/addon-centered'
 import {withInfo} from '@storybook/addon-info'
 import {withTests} from '@storybook/addon-jest'
 import {configureViewport, INITIAL_VIEWPORTS} from '@storybook/addon-viewport'
@@ -90,7 +89,6 @@ addParameters(
      */
   }),
 )
-addDecorator(centered)
 setConsoleOptions({
   panelExclude: [],
 })
