@@ -11,7 +11,7 @@ const Background = styled.div`
 
 const Header = () => (
   <Background>
-    <h1>Header Component</h1>
+    <div>Header Shared Component</div>
   </Background>
 )
 

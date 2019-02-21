@@ -2,7 +2,7 @@ import React from 'react'
 import styled from '@emotion/styled'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import PropTypes from 'prop-types'
-import { Spring, config } from 'react-spring/renderprops'
+import { Spring, config } from 'react-spring'
 
 const StyledIcon = styled(FontAwesomeIcon)`
   color: red;

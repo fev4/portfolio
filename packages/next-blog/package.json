@@ -26,6 +26,6 @@
     "prop-types": "^15.6.2",
     "react": "16.8.2",
     "react-dom": "16.8.2",
-    "react-spring": "7.2.10"
+    "react-spring": "8.0.7"
   }
 }
