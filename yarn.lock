@@ -1949,6 +1949,16 @@
     jest-validate "^23.5.0"
     pkg-conf "^2.1.0"
 
+"@lingui/loader@2.7.4":
+  version "2.7.4"
+  resolved "https://registry.yarnpkg.com/@lingui/loader/-/loader-2.7.4.tgz#f85b87fdf9efc5c5184746fb80c39c434963f4b8"
+  integrity sha512-YG1SJiolQJ3aoLVoBsl0vzX43iLN+HR+CEfiU3ITKDuNmC85MH4CijSLEK1o98LOZmGSq+siGMTozn/KIrfXIA==
+  dependencies:
+    "@lingui/cli" "2.7.4"
+    "@lingui/conf" "2.7.4"
+    babel-runtime "^6.26.0"
+    ramda "^0.25.0"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
