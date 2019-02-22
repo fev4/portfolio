@@ -3211,11 +3211,6 @@ async-each@^1.0.1:
   resolved "https://registry.yarnpkg.com/async-each/-/async-each-1.0.1.tgz#19d386a1d9edc6e7c1c85d388aedbcc56d33602d"
   integrity sha1-GdOGodntxufByF04iu28xW0zYC0=
 
-async-limiter@~1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/async-limiter/-/async-limiter-1.0.0.tgz#78faed8c3d074ab81f22b4e985d79e8738f720f8"
-  integrity sha512-jp/uFnooOiO+L211eZOoSyzpOITMXx1rBITauYykG3BRYPu8h0UcxsPNB04RR5vo4Tyz3+ay17tR6JVf9qzYWg==
-
 async-sema@2.1.4:
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/async-sema/-/async-sema-2.1.4.tgz#3f5aa091d0a763354045ee899a5d17ffb69251af"
@@ -8502,10 +8497,10 @@ nested-object-assign@^1.0.1:
   resolved "https://registry.yarnpkg.com/nested-object-assign/-/nested-object-assign-1.0.3.tgz#5aca69390d9affe5a612152b5f0843ae399ac597"
   integrity sha512-kgq1CuvLyUcbcIuTiCA93cQ2IJFSlRwXcN+hLcb2qLJwC2qrePHGZZa7IipyWqaWF6tQjdax2pQnVxdq19Zzwg==
 
-next-server@8.0.2-canary.3:
-  version "8.0.2-canary.3"
-  resolved "https://registry.yarnpkg.com/next-server/-/next-server-8.0.2-canary.3.tgz#a10d8861c0df9e111bfa18b6afebab765e71e76c"
-  integrity sha512-Lns6OCss7RSSJ8DBMNirA/jc8Svnwby7jC5GTUXB9gixmYbnGzXAhLBCsI1jkxmcQdpuRGIn3nOgoXdDrB+LNg==
+next-server@8.0.2:
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/next-server/-/next-server-8.0.2.tgz#b93797ec6b0ba5ac360c57a33a185967191156df"
+  integrity sha512-OODyysPPJY4f8Oy60+y1ALe4DODZofEGGZGoGkVbYDVddz70H5GRFhcYdmsd/0x/lrhSXs8V4LrFTpntMKSmcA==
   dependencies:
     etag "1.8.1"
     find-up "3.0.0"
@@ -8520,10 +8515,10 @@ next-transpile-modules@^2.0.0:
   resolved "https://registry.yarnpkg.com/next-transpile-modules/-/next-transpile-modules-2.0.0.tgz#ecbac0a5ad97ec7c0f47326bcdb64b6e11cf445c"
   integrity sha512-W+jV3Kg+bLmGbntYfrGBloiV+ABOXt+GMI2aIUcM29yaPVDsIn2vWoyH6PA2ZXXgILm7xmyPfi30/0idbAmsaA==
 
-next@8.0.2-canary.3:
-  version "8.0.2-canary.3"
-  resolved "https://registry.yarnpkg.com/next/-/next-8.0.2-canary.3.tgz#7a607e4fbf193f827cb9b6d1078460ad3d7e49d0"
-  integrity sha512-4VUTQemlM+CXLJjtnOkX6uId1xRFYuFWIhSmJto3hxBCe9MGsutgOrVn8ZJjAu9+3e/eHP5IpaMkDuZkJyThSw==
+next@8.0.2:
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/next/-/next-8.0.2.tgz#d50b5233e813dc39d43239158981892a7fefbfe4"
+  integrity sha512-qHs/IhfJK58CWfUlWKDpoDV7UjI36ebk1tdnnSY0jhSqH0EhB2PjXfuvcdpd9RoaA3kvbsZ6Ip+KxxSHhEvG/g==
   dependencies:
     "@babel/core" "7.1.2"
     "@babel/plugin-proposal-class-properties" "7.1.0"
@@ -8560,7 +8555,7 @@ next@8.0.2-canary.3:
     loader-utils "1.1.0"
     mkdirp-then "1.2.0"
     nanoid "1.2.1"
-    next-server "8.0.2-canary.3"
+    next-server "8.0.2"
     prop-types "15.6.2"
     prop-types-exact "1.2.0"
     react-error-overlay "4.0.0"
@@ -8582,7 +8577,6 @@ next@8.0.2-canary.3:
     webpack-hot-middleware "2.24.3"
     webpack-sources "1.3.0"
     worker-farm "1.5.2"
-    ws "6.1.2"
 
 nice-try@^1.0.4:
   version "1.0.5"
@@ -12387,13 +12381,6 @@ write-pkg@^3.1.0:
   dependencies:
     sort-keys "^2.0.0"
     write-json-file "^2.2.0"
-
-ws@6.1.2:
-  version "6.1.2"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-6.1.2.tgz#3cc7462e98792f0ac679424148903ded3b9c3ad8"
-  integrity sha512-rfUqzvz0WxmSXtJpPMX2EeASXabOrSMk1ruMOV3JBTBjo4ac2lDjGGsbQSyxj8Odhw5fBib8ZKEjDNvgouNKYw==
-  dependencies:
-    async-limiter "~1.0.0"
 
 x-is-string@^0.1.0:
   version "0.1.0"
