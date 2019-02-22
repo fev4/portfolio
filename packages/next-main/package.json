@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "@lingui/cli": "2.7.4",
-    "@lingui/loader": "2.7.4"
+    "@lingui/loader": "2.7.4",
+    "@lingui/macro": "2.7.4"
   }
 }

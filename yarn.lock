@@ -1959,6 +1959,14 @@
     babel-runtime "^6.26.0"
     ramda "^0.25.0"
 
+"@lingui/macro@2.7.4":
+  version "2.7.4"
+  resolved "https://registry.yarnpkg.com/@lingui/macro/-/macro-2.7.4.tgz#5e21c46f5782816f42e24316a1cff55098848e7d"
+  integrity sha512-bJKLdXWN9xPkp7LSB75PZ4InHxoXx4TECevrxP+wsCl+pQvdtMR55KMJtj4Ec1lCyj4VzL53IkqdA9Jj19SJNg==
+  dependencies:
+    "@lingui/babel-plugin-transform-react" "2.7.4"
+    babel-plugin-macros "^2.2.0"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -3604,7 +3612,7 @@ babel-plugin-emotion@^9.2.11:
     source-map "^0.5.7"
     touch "^2.0.1"
 
-babel-plugin-macros@2.5.0, babel-plugin-macros@^2.0.0, babel-plugin-macros@^2.4.5:
+babel-plugin-macros@2.5.0, babel-plugin-macros@^2.0.0, babel-plugin-macros@^2.2.0, babel-plugin-macros@^2.4.5:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-macros/-/babel-plugin-macros-2.5.0.tgz#01f4d3b50ed567a67b80a30b9da066e94f4097b6"
   integrity sha512-BWw0lD0kVZAXRD3Od1kMrdmfudqzDzYv2qrN3l2ISR1HVp1EgLKfbOrYV9xmY5k3qx3RIu5uPAUZZZHpo0o5Iw==

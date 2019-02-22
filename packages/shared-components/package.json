@@ -86,6 +86,7 @@
     "@fortawesome/free-solid-svg-icons": ">=5.7.2",
     "@fortawesome/react-fontawesome": ">=0.1.4",
     "@lingui/cli": "2.7.4",
+    "@lingui/macro": "2.7.4",
     "react": ">=16.8.2",
     "react-dom": ">=16.8.2",
     "react-spring": ">=8.0.7"
