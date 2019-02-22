@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf, addDecorator } from '@storybook/react';
-import centered from '@storybook/addon-centered'
+import centered from '@storybook/addon-centered/react'
 import Icon from '../src/Icon'
 import FontAwesome from '../src/FontAwesome'
 
