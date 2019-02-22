@@ -27,5 +27,8 @@
     "react": "16.8.3",
     "react-dom": "16.8.3",
     "react-spring": "8.0.7"
+  },
+  "devDependencies": {
+    "@lingui/cli": "2.7.4"
   }
 }
