@@ -1949,6 +1949,15 @@
     jest-validate "^23.5.0"
     pkg-conf "^2.1.0"
 
+"@lingui/core@2.7.4":
+  version "2.7.4"
+  resolved "https://registry.yarnpkg.com/@lingui/core/-/core-2.7.4.tgz#66499439e35d4de7fbd861b6c83fa07589606538"
+  integrity sha512-UFdnJbxTXD5CnVHk8Hk/dIQNdXMZXNrUCjNNzcboFBIdXehpruT/y6GFZpw6CxVpmjhnLTJsJVXTEUINRmuUMg==
+  dependencies:
+    babel-runtime "^6.26.0"
+    make-plural "^4.1.1"
+    messageformat-parser "^2.0.0"
+
 "@lingui/loader@2.7.4":
   version "2.7.4"
   resolved "https://registry.yarnpkg.com/@lingui/loader/-/loader-2.7.4.tgz#f85b87fdf9efc5c5184746fb80c39c434963f4b8"
@@ -1966,6 +1975,17 @@
   dependencies:
     "@lingui/babel-plugin-transform-react" "2.7.4"
     babel-plugin-macros "^2.2.0"
+
+"@lingui/react@2.7.4":
+  version "2.7.4"
+  resolved "https://registry.yarnpkg.com/@lingui/react/-/react-2.7.4.tgz#b336b2aac3a1848b7532a657bff3cb6d04e19464"
+  integrity sha512-h/NpVh0r4HU2VyOO+xfaZyortPVdkjbRkv+JSZSn3XRqBDFDDX3GPxR67Rj8PkRtH9co+I9WC2lSnfwqu1IATA==
+  dependencies:
+    "@lingui/core" "2.7.4"
+    babel-runtime "^6.26.0"
+    hash-sum "^1.0.2"
+    hoist-non-react-statics "3.0.1"
+    prop-types "^15.6.2"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -6857,6 +6877,11 @@ hash-base@^3.0.0:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
+hash-sum@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/hash-sum/-/hash-sum-1.0.2.tgz#33b40777754c6432573c120cc3808bbd10d47f04"
+  integrity sha1-M7QHd3VMZDJXPBIMw4CLvRDUfwQ=
+
 hash.js@^1.0.0, hash.js@^1.0.3:
   version "1.1.7"
   resolved "https://registry.yarnpkg.com/hash.js/-/hash.js-1.1.7.tgz#0babca538e8d4ee4a0f8988d68866537a003cf42"
@@ -6920,6 +6945,13 @@ hmac-drbg@^1.0.0:
     hash.js "^1.0.3"
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
+
+hoist-non-react-statics@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.0.1.tgz#fba3e7df0210eb9447757ca1a7cb607162f0a364"
+  integrity sha512-1kXwPsOi0OGQIZNVMPvgWJ9tSnGMiMfJdihqEzrPEXlHOBh9AAHXX/QYmAJTXztnz/K+PQ8ryCb4eGaN6HlGbQ==
+  dependencies:
+    react-is "^16.3.2"
 
 hoist-non-react-statics@3.2.0:
   version "3.2.0"

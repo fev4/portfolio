@@ -87,6 +87,7 @@
     "@fortawesome/react-fontawesome": ">=0.1.4",
     "@lingui/cli": "2.7.4",
     "@lingui/macro": "2.7.4",
+    "@lingui/react": "2.7.4",
     "babel-plugin-macros": "2.4.0",
     "react": ">=16.8.2",
     "react-dom": ">=16.8.2",
