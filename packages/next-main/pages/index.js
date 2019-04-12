@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import Link from 'next/link'
-import { Bar, Header } from "@fillipvt/components"
+import { Bar, Header, Paper } from "@fillipvt/components"
 // import PropTypes from 'prop-types'
 
 const Heading = styled.h2`
@@ -16,6 +16,7 @@ const Pg = styled.p`
 const Home = (props) => {
   return (
     <>
+      <Paper>Test</Paper>
       <Header/>
       <Heading>Welcome</Heading>
       <Pg>Portfolio Home Page</Pg>
