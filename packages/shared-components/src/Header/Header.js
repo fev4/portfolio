@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styled from '@emotion/styled'
 
 const Background = styled.div`
@@ -9,10 +9,14 @@ const Background = styled.div`
   left: 0;
 `
 
-const Header = () => (
-  <Background>
-    <div>Header Shared Component</div>
-  </Background>
-)
+const Header = () => {
+  const [count, setCount] = useState(2)
+
+  return (
+    <Background>
+      <div onClick={() => setCount(count+1)}>Shared Header - Click Me {count}</div>
+    </Background>
+  )
+}
 
 export default Header

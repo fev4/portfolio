@@ -4,33 +4,44 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "lingui compile && next build",
     "start": "next start",
-    "now-build": "next build"
+    "now-build": "lingui compile && next build",
+    "add-locale": "lingui add-locale",
+    "extract": "lingui extract"
   },
   "author": "fillipvt",
   "license": "MIT",
   "dependencies": {
-    "@emotion/core": "10.0.7",
-    "@emotion/styled": "10.0.7",
+    "@emotion/core": "10.0.10",
+    "@emotion/styled": "10.0.10",
     "@fillipvt/components": "0.0.1",
-    "@fortawesome/fontawesome-svg-core": "1.2.15",
-    "@fortawesome/free-brands-svg-icons": "5.7.2",
-    "@fortawesome/free-regular-svg-icons": "5.7.2",
-    "@fortawesome/free-solid-svg-icons": "5.7.2",
+    "@fortawesome/fontawesome-svg-core": "1.2.17",
+    "@fortawesome/free-brands-svg-icons": "5.8.1",
+    "@fortawesome/free-regular-svg-icons": "5.8.1",
+    "@fortawesome/free-solid-svg-icons": "5.8.1",
     "@fortawesome/react-fontawesome": "0.1.4",
     "@lingui/cli": "2.7.4",
     "@lingui/loader": "2.7.4",
     "@lingui/macro": "2.7.4",
     "@lingui/react": "2.7.4",
-    "babel-plugin-emotion": "10.0.7",
-    "babel-plugin-macros": "2.4.0",
+    "babel-plugin-emotion": "10.0.9",
+    "babel-plugin-macros": "2.5.1",
     "isomorphic-unfetch": "^3.0.0",
-    "next": "8.0.2",
-    "next-transpile-modules": "^2.0.0",
-    "prop-types": "^15.6.2",
-    "react": "16.8.3",
-    "react-dom": "16.8.3",
-    "react-spring": "8.0.7"
+    "next": "8.0.4",
+    "next-transpile-modules": "2.2.0",
+    "prop-types": "15.7.2",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-spring": "8.0.19"
+  },
+  "lingui": {
+    "sourceLocale": "en",
+    "localeDir": "./locale",
+    "srcPathDirs": [
+      "./pages/",
+      "./components/"
+    ],
+    "format": "po"
   }
 }

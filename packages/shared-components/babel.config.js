@@ -23,7 +23,8 @@ const plugins = [
 const productionPlugins = [
   'transform-react-constant-elements',
   'transform-dev-warning',
-  'emotion'
+  'emotion',
+  'macros'
 ];
 
 module.exports = {

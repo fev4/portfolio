@@ -1,5 +1,5 @@
 {
-  "name": "monorepo",
+  "name": "portfolio-monorepo",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -12,17 +12,13 @@
   "scripts": {
     "dev:blog": "yarn --cwd packages/next-blog dev",
     "dev:main": "yarn --cwd packages/next-main dev",
-    "build:blog": "yarn --cwd packages/next-blog build",
-    "build:main": "yarn --cwd packages/next-main build",
-    "start:blog": "yarn --cwd packages/next-blog start",
-    "start:main": "yarn --cwd packages/next-main start",
     "build:components": "yarn --cwd packages/shared-components build",
     "dev:components": "yarn --cwd packages/shared-components storybook",
     "lerna:update": "lernaupdate",
     "deploy:production": "now && now alias"
   },
   "devDependencies": {
-    "lerna": "^3.13.0",
-    "lerna-update-wizard": "^0.11.1"
+    "lerna": "3.13.2",
+    "lerna-update-wizard": "0.11.1"
   }
 }
